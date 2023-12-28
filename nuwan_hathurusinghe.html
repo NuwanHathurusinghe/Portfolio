@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<title>myPortfolioWeb</title>
+		<link rel="stylesheet" href="style.css">
+		<script></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<img src="images/logo.png" class="logo">
+					<ul>
+						<li><a href="#">About me</a></li>
+						<li><a href="#">My services</a></li>
+						<li><a href="#">My works</a></li>
+						<li><a href="#">Contact me</a></li>
+					</ul>
+				</nav>
+				<div class="header-text">
+					<p>Hello!</p>
+					<h1>I'm <span>NUWAN</span> from Sri Lanka</h1>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------------------about------------------------------------------------------->
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-1">
+						<img src="images/usr.jpg">
+					</div>
+					<div class="col-2">
+						<h1 class"sub-title">About me</h1>
+						<p>Highly motivated Junior Web Developer specializing in building and maintaining web applications. Proficient in HTML, CSS, JavaScript, and PHP. Eager to join a dynamic team where I can leverage my skills to contribute to the organization's success. </p>
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+							<p class="tab-links" onclick="opentab('ghbfdhdfh')">ghbfdhdfh</p>
+							<p class="tab-links" onclick="opentab('materials')">materials</p>
+						</div>
+						<div class="tab-contents active-tab" Id="skills">
+							<ul>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+
+							</ul>
+							
+						</div>
+						<div class="tab-contents" Id="ghbfdhdfh">
+							<ul>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+
+							</ul>
+							
+						</div>
+						<div class="tab-contents" Id="materials">
+							<ul>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+								<li><span>home</span><br>designWeb/app interfaces</li>
+
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------------------services------------------------------------------------------->
+		<div id="services">
+			<div class="container">
+				<h1 class"sub-title">my Services</h1>
+				<div class=" ">
+					
+				</div>
+			</div>
+
+
+
+		</div>
+		<script>
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-lcontents");
+			function opentab(tabname){
+				for(tablink of tablinks){
+					tablink.classList.remove("active-link");
+				}
+				for(tabcontent of tabcontents){
+					tabcontent.classList.remove("active-tab");
+				}
+				event.currentTarget.classList,add("active-link");
+				document.getElementById(tabname).classList.add("active-tab");
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
